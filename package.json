@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --watch -d js",
-    "serve": "http-server"
+    "serve": "http-server dist",
+    "gulp": "gulp start"
   },
-  "author": "",
+  "author": "byron l dunkley",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.14.8",
@@ -16,6 +17,8 @@
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/plugin-proposal-class-static-block": "^7.14.5",
     "@babel/preset-env": "^7.15.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "http-server": "^13.0.1"
   }
 }

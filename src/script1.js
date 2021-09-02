@@ -28,3 +28,5 @@ class Bork {
   console.log(Bork.staticFunction()); // > "babelIsCool"
 
   let budget = 1_000_000_000_000;
+
+  const bar = 'test';
