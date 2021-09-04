@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --watch -d js",
     "serve": "http-server dist",
-    "gulp": "gulp start"
+    "gulp": "gulp start",
+    "lint": "gulp lint"
   },
   "author": "byron l dunkley",
   "license": "ISC",
@@ -19,6 +20,8 @@
     "@babel/preset-env": "^7.15.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "http-server": "^13.0.1"
+    "gulp-jshint": "^2.1.0",
+    "http-server": "^13.0.1",
+    "jshint": "^2.13.1"
   }
 }
